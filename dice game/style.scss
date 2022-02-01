@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    // margin: 0 20px;
+
+    div{
+        margin: 0 50px;
+    }
+}
+.hidden{
+    display: none;
+}
